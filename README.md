@@ -1,4 +1,4 @@
-# A2A---Hackathon
+# A2A-Hackathon July 26/2025
 Enterprise + Ambient Agents Hackathon
 
 # Recruitment Workflow Orchestrator
