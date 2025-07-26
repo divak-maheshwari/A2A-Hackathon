@@ -44,4 +44,5 @@ recruit-orchestrator/
 │   └── package.json             # Frontend dependencies and scripts
 </pre>
 
+<img width="2832" height="1696" alt="image" src="https://github.com/user-attachments/assets/03fb97ff-21da-4360-a1ba-4e43b7216c52" />
 
