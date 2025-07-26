@@ -1,35 +1,26 @@
-# A2A-Hackathon July 26/2025
+# A2A-Hackathon
 Enterprise + Ambient Agents Hackathon
 
-# Recruitment Workflow Orchestrator
+# Recruiter Assistant AI
 
-An end-to-end demo MVP that automates recruitment workflows — from AI-powered resume screening, to automated interview scheduling, to candidate follow-ups.  
+Streamlines the entire hiring process by automating resume screening, candidate evaluation, interview scheduling, and follow-ups—all in one intelligent workflow. It helps recruiters save time, reduce manual effort, and focus on making better hiring decisions faster.
 
-Built with **FastAPI** (Python) backend and **React** frontend, integrated with sponsor tools like HockeyStack, Orkes, Senso, Google DeepMind Gemini, LlamaIndex, Arcade, AI Dungeon, and Datadog 
-for a powerful hackathon-ready presentation.
+Built with **FastAPI** (Python) backend and **React** frontend, integrated with sponsor tools like Senso, Google DeepMind, Arcade, and Datadog 
 
 ---
 ## Features
-
 - **Resume Screening:**  
-  Upload resumes and job descriptions for AI-powered suitability scoring and structured candidate data extraction (leveraging Senso, LlamaIndex, Google DeepMind Gemini).
+  Upload resumes and job descriptions for AI-powered suitability scoring and structured candidate data extraction.
 
-- **Interview Scheduling:**  
+- **Candidate Scoring:**  
   Automatically generate interview scheduling links (stubbed or via Arcade API).
 
-- **Candidate Follow-up:**  
+- **Email & Follow-Up:**  
   Send automated acceptance/rejection follow-up emails.
 
-- **Sponsor Integrations:**  
-  - **HockeyStack:** Frontend user journey analytics and event tracking  
-  - **Orkes Conductor:** Backend workflow orchestration via API  
-  - **Senso & LlamaIndex:** AI document processing and data extraction  
-  - **Google DeepMind Gemini:** Advanced AI matching and scoring  
-  - **Arcade:** Scheduling tool API integration (stub)  
-  - **AI Dungeon:** Optional gamified candidate interview experience  
-  - **Datadog:** Backend monitoring and event logging  
+- **Interview Scheduling:**  
+  Seamlessly books interview slots and sends invites. 
 ---
-
 ## Project Structure
 
 <pre>
@@ -53,10 +44,5 @@ recruit-orchestrator/
 │   └── package.json             # Frontend dependencies and scripts
 </pre>
 
-## Getting Started
+<img width="2832" height="1696" alt="image" src="https://github.com/user-attachments/assets/03fb97ff-21da-4360-a1ba-4e43b7216c52" />
 
-### Backend Setup
-
-1. Navigate to the `backend` directory.
-
-2. Copy `.env.example` to `.env` and add your actual API keys:
